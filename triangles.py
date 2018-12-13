@@ -1,5 +1,7 @@
-import math
-a = float(input("what is the length of side a?))
-b = float(input("what is the length of side b?"))
-c = sqrt((a*a) + (b*b))
-print c
+
+def tri(a, b):
+    """pythagorean theroem"""
+    a = float(a)
+    b = float(b)
+    c = ((a*a) + (b*b))**0.5
+    return c
